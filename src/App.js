@@ -10,10 +10,8 @@ import Signup from './components/Signup';
 function App() {
   return (
    <>
-   <BrowserRouter>
    
     <Navbar/>
-    </BrowserRouter>
         </>
   );
 }

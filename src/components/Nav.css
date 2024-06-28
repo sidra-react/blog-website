@@ -3,7 +3,7 @@ nav {
   top:1%; /* Add this to position at the top */
   left: 50%; /* Add this to center horizontally */
   transform: translateX(-50%); /* Add this to center horizontally */
-  width: 1600px;
+  width: 1200px;
   height: 60px;
   background-color: black;
   border-radius: 8px;
@@ -100,7 +100,7 @@ span {
     color: #2BD6B4;
 }
 .about-page {
-  max-width: 800px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -168,4 +168,7 @@ font-style: italic;
   border-style:outset;
   border-color: red;
 shape-outside: cross-fade();
+}
+.box{
+width:300%;
 }

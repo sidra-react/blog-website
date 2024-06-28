@@ -14,25 +14,6 @@ const userSchema = new mongoose.Schema({
     password: {
         type: String,
         required: true
-    },
-    
-   phone: {
-    type: String,
-    required: true
-  
-    },
-    profession:{
-        type: String,
-        required: true
-    },
-    pic:{
-        type: String,
-        required: true
-
-    }, interests:{
-        type: String,
-        required: true
-
     }
 });
 
